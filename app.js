@@ -16,9 +16,9 @@ function checkIfLucky() {
             sum += Number(num);
         }
         if (sum%luckyNum.value === 0) {
-            showResult("It's Lucky");
+            showResult(`🥳 🥳 ${luckyNum.value} is Lucky 🥳 🥳`);
         }else{
-            showResult("Nope it's not Lucky");
+            showResult(`Nope ${luckyNum.value} is not Lucky 😔`);
         }
     }   
 }
